@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, Modal, Alert, TouchableOpacity } from 'react-native'
+import { View, Text, Modal, Platform, TouchableOpacity } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
 
 import { styles } from './styles'
@@ -52,7 +52,12 @@ export function Profile() {
             <Text style={styles.decision}>?</Text>
           </View>
 
-          <View style={styles.decisionContainer}>
+          <View
+            style={[
+              styles.decisionContainer,
+              { left: Platform.OS === 'ios' ? 7 : 15 },
+            ]}
+          >
             <TouchableOpacity
               activeOpacity={0.7}
               onPress={() => setVisible(false)}

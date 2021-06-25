@@ -48,7 +48,6 @@ export const styles = StyleSheet.create({
   decisionContainer: {
     position: 'absolute',
     bottom: 30,
-    left: 15,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
