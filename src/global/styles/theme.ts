@@ -24,5 +24,5 @@ export const theme = {
     text500: 'Inter_500Medium',
     title700: 'Rajdhani_700Bold',
     title500: 'Rajdhani_500Medium',
-  }
-};
+  },
+}
