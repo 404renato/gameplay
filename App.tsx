@@ -36,6 +36,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
+
       <AuthProvider>
         <Routes />
       </AuthProvider>

@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
     paddingHorizontal: 24,
+    marginBottom: 24,
   },
 
   title: {
